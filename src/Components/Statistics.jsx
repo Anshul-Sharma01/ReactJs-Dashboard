@@ -53,8 +53,8 @@ function Statistics() {
             <div className="mb-10">
                 <Bar data={barData} />
             </div>
-            <div>
-                <Pie data={pieData} />
+            <div className='h-[80vh]'>
+                <Pie data={pieData}  />
             </div>
         </div>
     );
